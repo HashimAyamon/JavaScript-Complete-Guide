@@ -1,22 +1,20 @@
-//  string 
-var person="hashim";
-let person1="hashi";
+//  string
+var person = "hashim";
+let person1 = "hashi";
 
-// number 
-var number1= 10;
-var number2= 20;
+// number
+var number1 = 10;
+var number2 = 20;
 
-// bool 
-var js=true;
+// bool
+var js = true;
 var html = false;
 
-// undifined 
+// undifined
 var test1;
 
-// Null 
-var test2=null;
+// Null
+var test2 = null;
 
-// constant 
+// constant
 const pi = 3.14;
-
-

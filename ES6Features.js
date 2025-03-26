@@ -1,8 +1,8 @@
 //  ES6+ Features Explained in Simple Terms
 
 //  1. Let & Const (Better Variable Declaration)
-let name = "Hashim";  // Can be changed later
-const PI = 3.1416;    // Cannot be changed (constant)
+let name = "Hashim"; // Can be changed later
+const PI = 3.1416; // Cannot be changed (constant)
 
 // 2. Arrow Functions (Shorter Way to Write Functions)
 const greet = (userName) => `Hello, ${userName}!`;
@@ -19,7 +19,7 @@ sayHello(); // Output: Hello, Guest!
 //  5. Object & Array Destructuring (Easy Data Extraction)
 const user = { firstName: "Hashim", city: "Kerala" };
 const { firstName, city } = user; // Extracting values easily
-console.log(firstName, city); 
+console.log(firstName, city);
 
 const numbers = [10, 20, 30];
 const [num1, num2] = numbers; // Extracting array values
@@ -71,10 +71,10 @@ console.log(username ?? "Guest"); // Output: Guest (if username is null)
 const nums = [1, 2, 3, 4, 5];
 
 // Map (Change Each Item)
-console.log(nums.map(n => n * 2)); // [2, 4, 6, 8, 10]
+console.log(nums.map((n) => n * 2)); // [2, 4, 6, 8, 10]
 
 // Filter (Get Only Specific Items)
-console.log(nums.filter(n => n % 2 === 0)); // [2, 4]
+console.log(nums.filter((n) => n % 2 === 0)); // [2, 4]
 
 // Reduce (Calculate a Single Value)
 console.log(nums.reduce((total, n) => total + n, 0)); // 15
