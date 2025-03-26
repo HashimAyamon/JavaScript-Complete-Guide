@@ -1,6 +1,9 @@
 # 🚀 JavaScript Complete Guide  
 
-![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png alt="JavaScript Logo" width="120")
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="120">
+</p>
+
 
 ## 📌 Introduction  
 JavaScript (JS) is a **powerful, high-level programming language** used for creating interactive websites. It is essential for **frontend and backend** development, making it one of the most widely used languages in the world.  
